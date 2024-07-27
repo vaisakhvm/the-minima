@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.files = Dir["**/*"] - Dir[".gitignore", "*.gemspec", "*.gem", "README.md"]
   spec.homepage = "https://github.com/vaisakhvm/the-minima"
   spec.license = "MIT"
-  spec.required_ruby_version = ">= 3.3.4"
+  #spec.required_ruby_version = ">= 3.3.4"
 
   spec.add_dependency "jekyll", "~> 4.3.3"
 end
